@@ -1,6 +1,7 @@
 let clicks = 0;
 let power = 1;
 let powercost = 50;
+alert(normFormat(9340349304, 3, 1));
 function increment() {
 	clicks += power;
 	document.getElementById("skibiditext").innerHTML = `You have ${clicks} skibidis.`;
