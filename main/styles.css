@@ -10,15 +10,19 @@ h1 {
 
 
 
-.maintext {
+.buttontext {
   font-size: 16px;
   margin: 4px;
+  position: relative;
+  top: 14px;
 }
 
-.maindisp {
+.buttondisp {
   font-weight: 1000;
   font-size: 16px;
   margin: 4px;
+  position: relative;
+  top: 28px;
 }
 
 .button {
@@ -42,17 +46,13 @@ h1 {
 
 #incrementButton {
   position: absolute;
-  left: 35%;
+  left: 45%;
+  top: 0px;
 }
 
 #powerButton {
   position: absolute;
-  left: 65%;
+  left: 45%;
+  top: 100px;
 }
 
-#powerText, #power, #powerCostText, #powerCost {
-  position: relative;
-  top: 85px;
-  left: 55%;
-  margin-left: 90px;
-}
